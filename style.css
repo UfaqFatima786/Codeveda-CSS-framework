@@ -5,24 +5,40 @@
 }
 
 .navUl {
-    background-color: rgb(252, 3, 177);
+
+    background-color: rgb(252, 3, 3);
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgb(255, 255, 255);
     height: 100px;
 }
 .navnav .nav-link {
     color: white;
-    font-weight: 600;
-    font-size: 18px;
+    font-weight: 400;
+    font-size: 20px;
 }
 .navnav .nav-link:hover {
     color: rgb(0, 0, 0);
-    font-weight: 700;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 22px;
     transition: 0.3s;
 }
+.btn {
+    background-color: rgb(3, 3, 3);
+    border-radius: 10px;
+    border: 2px solid white;
+    color: rgb(255, 254, 254);
+}
+
+.btn:hover {
+    border-radius: 10px;
+    border: 2px solid black;
+    color: rgb(16, 16, 16);
+    background-color: #ac9ff5;
+    transition: 0.5s;
+    cursor: pointer;
+}
 body {
-    background-color: rgb(0, 0, 0);
+background: linear-gradient(90deg,rgba(0, 3, 5, 1) 18%, rgba(240, 7, 46, 1) 52%, rgba(56, 102, 242, 1) 97%);
 }
 
  .big-col{
@@ -41,7 +57,41 @@ body {
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgb(255, 255, 255);
  }
- /* .img-1:hover{
+ .header-row{
+        background-color: rgb(75, 62, 62);
+        border-radius: 10px;
+            box-shadow: 5px 5px 15px rgb(255, 255, 255);
+
+
+ }
+ .header-img{
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(255, 255, 255);
+ }
+ .header-img:hover{
+     transform: scale(1.05);
+    box-shadow: 5px 5px 25px rgb(255, 255, 255);
     cursor: pointer;
-    transition: 0.8s;
- } */
+    animation-name: pulse;
+    animation-duration: 2s;
+ }
+ .heading-3{
+    color: white;
+    font-weight: 600;
+ }
+.heading-3:hover{
+    color: rgb(252, 172, 172);
+    font-weight: 650;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.para-1{
+    color: white;
+    font-weight: 400;
+ }
+ .para-1:hover{
+    color: rgb(252, 172, 172);
+    font-weight: 450;
+    transition: 0.3s;
+    cursor: pointer;
+ }
