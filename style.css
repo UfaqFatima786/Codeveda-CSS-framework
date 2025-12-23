@@ -6,7 +6,7 @@
 
 .navUl {
 
-    background-color: rgb(252, 3, 3);
+    background-color: rgb(0, 0, 0);
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgb(255, 255, 255);
     height: 100px;
@@ -47,7 +47,7 @@ body {
 }
 
 .big-col {
-    background-color: rgb(0, 0, 0);
+background-color: #2a3b5f;
     text-align: center;
 }
 
@@ -75,7 +75,7 @@ body {
 }
 
 .header-row {
-    background-color: rgb(0, 0, 0);
+background-color: #2a3b5f;
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgb(255, 255, 255);
 
@@ -142,7 +142,7 @@ body {
     box-shadow: 5px 5px 15px rgb(255, 255, 255);
 } */
 .section-services {
-    background-color: rgb(0, 0, 0);
+background-color: #2a3b5f;
     border-radius: 10px;
     box-sizing: border-box;
     box-shadow: 5px 5px 15px rgb(236, 219, 219);
@@ -151,7 +151,7 @@ body {
 }
 
 .section-services:hover {
-    background-color: rgb(75, 62, 62);
+    background-color: rgb(37, 35, 35);
     box-shadow: 5px 5px 25px rgb(255, 150, 150);
     cursor: pointer;
     animation-name: zoom-In;
@@ -222,7 +222,7 @@ body {
 }
 
 .card {
-    background-color: rgb(0, 0, 0);
+background-color: #2a3b5f;
     border-radius: 10px;
     box-sizing: border-box;
     /* border: 2px solid white; */
@@ -231,7 +231,7 @@ body {
 }
 
 .card:hover {
-    background-color: rgb(56, 51, 51);
+    background-color: rgb(37, 35, 35);
     border-radius: 10px;
     box-sizing: border-box;
     box-shadow: 5px 5px 15px rgb(247, 186, 186);
