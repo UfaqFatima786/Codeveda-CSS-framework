@@ -8,12 +8,12 @@
 
     background-color: rgb(0, 0, 0);
     border-radius: 10px;
-    box-shadow: 5px 5px 15px rgb(255, 255, 255);
+    box-shadow: 15px 5px 200px rgb(255, 255, 255);
     height: 100px;
 }
 
 .navnav .nav-link {
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: 400;
     font-size: 20px;
 }
@@ -26,7 +26,7 @@
 }
 
 .btn {
-    background-color: rgb(3, 3, 3);
+background-color: #014f9c;
     border-radius: 10px;
     border: 2px solid white;
     color: rgb(255, 254, 254);
@@ -36,7 +36,7 @@
     border-radius: 10px;
     border: 2px solid black;
     color: rgb(16, 16, 16);
-    background-color: #ac9ff5;
+    background-color: #bbaffd;
     transition: 0.5s;
     cursor: pointer;
 }
@@ -171,7 +171,7 @@ background-color: #2a3b5f;
 }
 
 .btn-01 {
-    background-color: rgb(247, 139, 139);
+    background-color: rgb(3, 102, 182);
     border-radius: 10px;
     border: 2px solid white;
     color: black;
@@ -181,9 +181,9 @@ background-color: #2a3b5f;
 
 .btn-01:hover {
     border-radius: 10px;
-    border: 2px solid rgb(253, 171, 171);
+    border: 2px solid rgb(248, 127, 127);
     color: #000;
-    background-color: #ac9ff5;
+    background-color: #b9aef8;
     transition: 0.5s;
     cursor: pointer;
 }
@@ -262,7 +262,7 @@ background-color: #2a3b5f;
     margin-right: 50px;
     border-radius: 10px;
     border: 2px solid black;
-    box-shadow: 5px 5px 15px rgb(255, 255, 255);
+    box-shadow: 15px 5px 200px rgb(255, 255, 255);
 }
 
 .footer:hover {
