@@ -18,7 +18,7 @@
 }
 
 .navnav .nav-link:hover {
-    color: rgb(0, 0, 0);
+    color: rgb(253, 202, 202);
     font-weight: 500;
     font-size: 22px;
     transition: 0.3s;
@@ -212,7 +212,31 @@ body {
     animation-name: fadeIn;
     animation-duration: 1s;
 }
+.pro{
+    background-color: #2a3b5f;
+    
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 15px rgb(255, 255, 255);
+}
+.head2 {
+   background-color: #014f9c;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
 
+.head2:hover {
+    border-radius: 10px;
+    border: 2px solid rgb(247, 185, 185);
+    color: #000000;
+    background-color: #b9aef8;
+    transition: 0.5s;
+    cursor: pointer;
+    animation-name: fade-In;
+    animation-duration: 1s;
+}
 .card {
     background-color: #162952;
     border-radius: 10px;
@@ -252,7 +276,7 @@ body {
 
 .contact-button:hover {
     border-radius: 10px;
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(252, 166, 166);
     color: #000000;
     background-color: #b9aef8;
     transition: 0.5s;
